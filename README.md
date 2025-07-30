@@ -5,10 +5,11 @@ This project is a Machine Learning-based web application that predicts whether a
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-![Home Page](static/screenshots/homepage.png) <!-- Replace with your actual image path -->
+![Home Page](static/screenshots/home.png) <!-- Replace with your actual image path -->
 
 ### 📊 Prediction Result
-![Prediction Output](static/screenshots/prediction.png)
+![Prediction Output](static/screenshots/prediction-1.png)
+![Prediction Output](static/screenshots/prediction-2.png)
 
 
 ## 📌 Project Description
@@ -59,3 +60,7 @@ pip install -r requirements.txt
 
 # Run the app
 python app.py
+```
+# 👩‍💻 Author <br>
+ Seelam Divya Kumari
+
