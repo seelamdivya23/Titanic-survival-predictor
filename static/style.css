@@ -1,0 +1,136 @@
+/* Set full-screen background image */
+body {
+    background-image: url('background.jpg'); /* Replace with your own image file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f3f7fb;
+}
+
+/* Container for the entire form */
+.container {
+    background-color: rgba(135, 197, 224, 0.6); /* transparent background */
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    color: aqua;
+}
+
+/* Title styling */
+.container h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #1a1b4b;
+    font-weight: bold;
+}
+
+/* Input fields */
+/* Input fields with soft blue and better visibility */
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: rgba(94, 195, 235, 0.3);  /* Semi-transparent white */
+    color: rgb(5, 5, 5);  /* Black text for visibility */
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    font-size: 16px;
+    backdrop-filter: blur(4px);  /* Blur effect */
+    transition: border-color 0.3s ease;
+}
+input[type="number"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: rgba(94, 195, 235, 0.3);
+    color: black;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    font-size: 16px;
+    backdrop-filter: blur(4px);
+    transition: border-color 0.3s ease;
+}
+/* Set black placeholder and black bold text for all input fields */
+input[name="pclass"]::placeholder,
+input[name="sex"]::placeholder,
+input[name="age"]::placeholder,
+input[name="sibsp"]::placeholder,
+input[name="parch"]::placeholder,
+input[name="fare"]::placeholder,
+input[name="embarked"]::placeholder,
+input[name="who"]::placeholder,
+input[name="alone"]::placeholder {
+    color: black;
+    
+}
+
+input[name="pclass"],
+input[name="sex"],
+input[name="age"],
+input[name="sibsp"],
+input[name="parch"],
+input[name="fare"],
+input[name="embarked"],
+input[name="who"],
+input[name="alone"] {
+    color: black;
+    
+}
+/* Dropdown (select box) styles */
+select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: rgba(94, 195, 235, 0.3); /* same as input */
+    color: black; /* black text */
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    font-size: 16px;
+    backdrop-filter: blur(4px);
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+
+
+
+/* Button styling */
+button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #a6c6f6;
+    background-color: #0b5787;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Prediction result */
+#prediction-result {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+}
